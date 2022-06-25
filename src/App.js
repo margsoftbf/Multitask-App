@@ -1,11 +1,23 @@
 import './App.css';
-import Main from './components/Main/Main';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Buttons from './components/Buttons/Buttons';
+import Bill from './Pages/BillSplitter/BillSplitter';
+import BMI from './Pages/BMI/BMI'
+import Calculator from './Pages/Calculator/Calculator'
+import ExchangeRate from './Pages/ExchangeRate/ExchangeRate'
 
 function App() {
   return (
     <div className="App">
-      <Main />
-
+      <Router>
+        <Buttons />
+        <Routes>
+          <Route path="/bill-splitter" element={<Bill />} />
+          <Route path="/bmi" element={<BMI />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/exhange-rate" element={<ExchangeRate />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
