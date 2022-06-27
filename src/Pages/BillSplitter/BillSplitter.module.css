@@ -1,3 +1,106 @@
+.wrapper {
+	margin: 1em;
+}
+.box {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 800px;
+	height: 750px;
+	background-color: #fff;
+}
+
+.top {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	max-width: 800px;
+	height: 175px;
+	background-color: #009462;
+	border-radius: 50% / 0 0 100% 100%;
+}
+
 .title {
+	position: relative;
+	margin-top: 0.5em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
 	color: #fff;
+}
+
+.personBillAmount {
+	position: relative;
+	font-size: 0.7em;
+	margin: 0.5em;
+	color: #fff;
+	opacity: 0.8;
+}
+
+.bottom {
+	position: absolute;
+	top: 200px;
+	width: 100%;
+	height: 100%;
+}
+
+.totalPersonAmount {
+	color: #fff;
+}
+
+.billAmount {
+	display: flex;
+	top: 200px;
+	width: 300px;
+	height: 100px;
+	background-color: #333;
+}
+
+.label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.9em;
+	margin-bottom: 0.5em;
+}
+
+.input {
+	padding: 1em;
+	width: 80%;
+	font-weight: bold;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	outline: none;
+	margin-bottom: 2em;
+}
+
+.tipBox {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.tipBox p {
+	margin: 0.5em;
+}
+
+.tipButton {
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 0.5em;
+	border-radius: 5px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	background-color: #009462;
+	box-shadow: 0px 3px hsl(154, 62%, 30%);
+	transition: background-color 0.4s;
+}
+
+.tipButton:hover {
+	background-color: #2b8163;
 }
