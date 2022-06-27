@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Multitask-App/static/css/main.64075206.css",
-    "main.js": "/Multitask-App/static/js/main.9f7547f5.js",
+    "main.css": "/Multitask-App/static/css/main.744588d6.css",
+    "main.js": "/Multitask-App/static/js/main.fc2a1886.js",
     "static/js/787.27bd3622.chunk.js": "/Multitask-App/static/js/787.27bd3622.chunk.js",
     "index.html": "/Multitask-App/index.html",
-    "main.64075206.css.map": "/Multitask-App/static/css/main.64075206.css.map",
-    "main.9f7547f5.js.map": "/Multitask-App/static/js/main.9f7547f5.js.map",
+    "main.744588d6.css.map": "/Multitask-App/static/css/main.744588d6.css.map",
+    "main.fc2a1886.js.map": "/Multitask-App/static/js/main.fc2a1886.js.map",
     "787.27bd3622.chunk.js.map": "/Multitask-App/static/js/787.27bd3622.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64075206.css",
-    "static/js/main.9f7547f5.js"
+    "static/css/main.744588d6.css",
+    "static/js/main.fc2a1886.js"
   ]
 }
