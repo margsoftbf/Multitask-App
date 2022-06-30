@@ -8,10 +8,12 @@
 	margin: 0 auto;
 	max-width: 800px;
 	height: 750px;
+	border-radius: 15px;
 	background-color: #fff;
+	overflow: hidden;
 }
 
-.top {
+.topSection {
 	position: absolute;
 	width: 100%;
 	top: 0;

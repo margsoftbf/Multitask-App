@@ -13,12 +13,6 @@ const Input = ({ label, id, handleChange, name, type, placeholder }) => (
   </>
 );
 
-const SelectTip = ({ tip }) => {
-  <>
-    <button className='tipButton' value={tip}></button>
-  </>
-}
-
 function BillSplitter() {
   const [billAmount, setBillAmount] = useState(0);
   const [personAmount, setPersonAmount] = useState(0);
@@ -35,16 +29,16 @@ function BillSplitter() {
   return (
     <div className={`${style.wrapper}`}>
       <div className={`${style.box}`}>
-        <div className={`${style.top}`}>
+        <div className={`${style.topSection}`}>
           <h2 className={`${style.title}`}>Bill Splitter</h2>
           <p className={`${style.personBillAmount}`}>Person Bill Amount</p>
           <p className={`${style.totalPersonAmount}`} >$ {(perCost).toFixed(2)}</p>
         </div>
         <div className={`${style.bottom}`}>
 
-          <Input handleChange={setBillAmount} className={`${style.clases}`} placeholder='Amount of bill' label="Bill value">{billAmount}</Input>
+          <Input handleChange={setBillAmount} placeholder='Amount of bill' label="Bill value">{billAmount}</Input>
 
-          <Input handleChange={setPersonAmount} className={`${style.clases}`} placeholder='Number of people' label="Number of people">{personAmount}</Input>
+          <Input handleChange={setPersonAmount} placeholder='Number of people' label="Number of people">{personAmount}</Input>
 
           <div className={`${style.tipBox}`}>
             <p>Select tip</p>
