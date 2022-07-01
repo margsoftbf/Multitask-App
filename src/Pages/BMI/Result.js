@@ -1,7 +1,8 @@
 import React from 'react'
+import style from './Result.module.css'
 
 
-function Result(props) {
+function Result() {
   return (
     <div>Result</div>
   )

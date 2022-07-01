@@ -4,16 +4,12 @@ import Calculator from './Calculator'
 import Result from './Result'
 
 
-function BMI() {
-    // const [toggle, setToggle] = useState(true)
 
-    // const toggler = () => {
-    //     toggle ? setToggle(false) : setToggle(true)
-    // }
+function BMI() {
 
     const [page, setPage] = useState(0);
 
-    
+
     const checkPage = () => {
         if (page === 0) {
             return (
@@ -43,6 +39,10 @@ function BMI() {
     return (
         <div className={`${style.wrapper}`}>
             <div className={`${style.box}`}>
+                <div className={`${style.img}`}></div>
+                <div className={`${style.topSection}`}>
+                    <h1 className={`${style.title}`}>{(page === 0 ? 'BMI Calculator' : 'Result')}</h1>
+                </div>
                 <div className="body">{PageDisplay()}</div>
                 <div>{checkPage()}</div>
             </div>
