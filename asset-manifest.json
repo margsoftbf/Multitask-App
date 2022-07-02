@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Multitask-App/static/css/main.c8d0df28.css",
-    "main.js": "/Multitask-App/static/js/main.1363a1ab.js",
+    "main.css": "/Multitask-App/static/css/main.3c4216d3.css",
+    "main.js": "/Multitask-App/static/js/main.6c350598.js",
     "static/js/787.27bd3622.chunk.js": "/Multitask-App/static/js/787.27bd3622.chunk.js",
     "static/media/bmi.png": "/Multitask-App/static/media/bmi.4c0d5de37ce5aff9c451.png",
     "static/media/scale.png": "/Multitask-App/static/media/scale.0918875e2dd5e0c19c2c.png",
     "index.html": "/Multitask-App/index.html",
-    "main.c8d0df28.css.map": "/Multitask-App/static/css/main.c8d0df28.css.map",
-    "main.1363a1ab.js.map": "/Multitask-App/static/js/main.1363a1ab.js.map",
+    "main.3c4216d3.css.map": "/Multitask-App/static/css/main.3c4216d3.css.map",
+    "main.6c350598.js.map": "/Multitask-App/static/js/main.6c350598.js.map",
     "787.27bd3622.chunk.js.map": "/Multitask-App/static/js/787.27bd3622.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8d0df28.css",
-    "static/js/main.1363a1ab.js"
+    "static/css/main.3c4216d3.css",
+    "static/js/main.6c350598.js"
   ]
 }
