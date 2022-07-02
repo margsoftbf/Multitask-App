@@ -34,8 +34,6 @@ function Calculator() {
   };
 
 
-
-
   return (
     <>
       <div className={`${style.content}`}>
@@ -64,3 +62,4 @@ function Calculator() {
 
 
 export default Calculator
+

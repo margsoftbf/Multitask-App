@@ -6,9 +6,7 @@ import Result from './Result'
 
 
 function BMI() {
-
     const [page, setPage] = useState(0);
-
 
     const checkPage = () => {
         if (page === 0) {
