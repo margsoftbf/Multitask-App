@@ -1,3 +1,88 @@
+.content {
+	margin: 0 0.5em;
+}
+
+.formTitle {
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	margin: 1em 0;
+	font-size: 0.8rem;
+}
+
+.genders {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.genderBox {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 120px;
+	height: 120px;
+	margin-bottom: 0.5em;
+	color: #fff;
+	background-color: #333;
+	border-radius: 10px;
+	z-index: 20;
+	cursor: pointer;
+}
+
+.activeBox {
+	border: 5px solid #08eb9f;
+}
+
+.genderIcon {
+	font-size: 2em;
+	margin: 0.3em;
+	pointer-events: none;
+}
+
+.genderBoxTitle {
+	font-size: 0.5rem;
+}
+
+.button {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	color: #fff;
+	width: 100%;
+	bottom: 20px;
+	background-color: #333;
+}
+
+.bottomSection {
+	display: flex;
+	flex-direction: column;
+	margin-top: 0.5em;
+	/* z-index: 100; */
+}
+.label {
+	position: relative;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	font-size: 0.6em;
+	margin-bottom: 0.2em;
+}
+
+.input {
+	padding: 0.8em;
+	width: 100%;
+	font-weight: bold;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	outline: none;
+	z-index: 100;
+}
+
 .wrapper {
 	margin: 1em;
 }
@@ -47,8 +132,8 @@
 .button {
 	position: absolute;
 	bottom: 0;
+	left: 50%;
 	width: 250px;
-	margin: 0 auto;
 	border-radius: 5px;
 	text-transform: uppercase;
 	color: #fff;
@@ -67,8 +152,90 @@
 	z-index: 1000;
 }
 
+.content {
+	margin: 0 0.5em;
+	height: 100%;
+}
+.imgResult {
+	position: relative;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	background-image: url('../../assets/images/scale.png');
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+.descriptions {
+	display: flex;
+	flex-direction: column;
+	margin-top: 2em;
+}
+
+.bmiScoreDesc {
+	margin: 0.5em 0;
+	font-size: 0.7rem;
+}
+
+.bmiScoreColor {
+	color: #2b8163;
+	font-weight: bold;
+}
+
+.descriptionBottom {
+	margin: 0.5em 0;
+	font-size: 0.7rem;
+}
 @media (min-width: 576px) {
+	.genderBox {
+		width: 230px;
+		height: 200px;
+	}
+
+	.genderIcon {
+		font-size: 3em;
+		margin: 0.5em;
+	}
+
+	.genderBoxTitle {
+		font-size: 0.8rem;
+	}
+	.imgResult {
+		width: 300px;
+		height: 300px;
+	}
+
 	.box {
 		height: 770px;
+	}
+
+	.bmiScoreDesc {
+		font-size: 0.9rem;
+	}
+	.descriptionBottom {
+		font-size: 0.9rem;
+	}
+}
+@media (min-width: 768px) {
+	.genderBox {
+		width: 320px;
+		height: 250px;
+	}
+
+	.genderIcon {
+		font-size: 4em;
+		margin: 0.5em;
+	}
+
+	.genderBoxTitle {
+		font-size: 1rem;
+	}
+}
+@media (min-width: 992px) {
+	.genderBox {
+		width: 340px;
+	}
+	.content {
+		margin: 0 2em;
 	}
 }

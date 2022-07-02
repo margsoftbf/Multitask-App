@@ -19,9 +19,9 @@ function BillSplitter() {
   const [perCost, setPerCost] = useState(0);
 
 
-  const calculatePerPerson = (tip) => {
+  const calculatePerPerson = (tiper) => {
     if (personAmount > 0) {
-      setPerCost(((1 + 0.01 * tip) * (billAmount)) / personAmount);
+      setPerCost(((1 + 0.01 * tiper) * (billAmount)) / personAmount);
     }
   }
 
