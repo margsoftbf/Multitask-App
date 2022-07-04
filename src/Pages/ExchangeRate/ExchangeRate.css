@@ -1,4 +1,4 @@
-.wrapper {
+/* .wrapper {
 	margin: 1em;
 }
 .box {
@@ -28,7 +28,8 @@
 	word-break: break-all;
 }
 
-input[type='text'] {
+
+input[type='number'] {
 	-moz-appearance: textfield;
 }
 
@@ -45,8 +46,7 @@ input::-webkit-inner-spin-button {
 }
 
 .calculatorButton {
-	padding: 1em;
-	font-size: 25px;
+	padding: 1.4em;
 	background-color: #3c404d;
 	color: #fff;
 	transition: background-color 0.3s;
@@ -57,7 +57,6 @@ input::-webkit-inner-spin-button {
 }
 
 .clearButton {
-	font-size: 25px;
 	grid-column: span 2;
 }
 
@@ -73,4 +72,4 @@ input::-webkit-inner-spin-button {
 
 .functionButton:hover {
 	background-color: #252b3b;
-}
+} */

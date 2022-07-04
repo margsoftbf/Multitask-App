@@ -15,7 +15,7 @@ function App() {
           <Route path="/bill-splitter" element={<Bill />} />
           <Route path="/bmi" element={<BMI />} />
           <Route path="/calculator" element={<Calculator />} />
-          <Route path="/exhange-rate" element={<ExchangeRate />} />
+          <Route path="/exchange-rate" element={<ExchangeRate />} />
         </Routes>
       </Router>
     </div>

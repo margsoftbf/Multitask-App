@@ -33,6 +33,7 @@
 
 .activeBox {
 	border: 5px solid #08eb9f;
+	background-color: rgb(83, 83, 83);
 }
 
 .genderIcon {
@@ -57,11 +58,21 @@
 	background-color: #333;
 }
 
+.form {
+	position: absolute;
+	top: 0;
+	z-index: 1000;
+}
+
+.formError {
+	display: none;
+}
+
 .bottomSection {
 	display: flex;
 	flex-direction: column;
 	margin-top: 0.5em;
-	/* z-index: 100; */
+	z-index: 100;
 }
 .label {
 	position: relative;
@@ -167,6 +178,7 @@
 	overflow: hidden;
 }
 .descriptions {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	margin-top: 2em;
@@ -179,12 +191,18 @@
 
 .bmiScoreColor {
 	color: #2b8163;
+	font-size: 0.9rem;
 	font-weight: bold;
 }
 
 .descriptionBottom {
 	margin: 0.5em 0;
 	font-size: 0.7rem;
+}
+
+.checkForm {
+	position: absolute;
+	z-index: 1000;
 }
 @media (min-width: 576px) {
 	.genderBox {
@@ -214,6 +232,10 @@
 	}
 	.descriptionBottom {
 		font-size: 0.9rem;
+	}
+
+	.bmiScoreColor {
+		font-size: 1.2rem;
 	}
 }
 @media (min-width: 768px) {
