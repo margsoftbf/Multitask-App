@@ -1,3 +1,27 @@
+# Multitask APP - React App
+
+React application, where I could practice all the knowledge gained while learning React. The application includes 4 smaller applications. Bill splitter, BMI Calculator, Calculator, Currency Converter.
+
+I am glad if you can find 5 minutes to check the code of this project.
+
+## Live preview
+
+https://margsoftbf.github.io/Multitask-App/
+
+## Screenshoot
+
+![App Screenshoot](https://raw.githubusercontent.com/margsoftbf/Multitask-App/main/public/screenshot/MultitaskApp-BMICalculator.jpg)
+
+## Download and Installation
+
+```bash
+  git clone https://github.com/margsoftbf/Multitask-App.git
+```
+
+## Usage
+
+After downloading, simply edit the JS and CSS files included with directory. To preview the changes you make to the code, you can start the server by the npm start.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
