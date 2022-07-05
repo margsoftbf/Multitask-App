@@ -62,7 +62,7 @@ input::-webkit-inner-spin-button {
 }
 
 .calculatorZero {
-	grid-column: span 3;
+	grid-column: span 2;
 }
 
 .functionButton {

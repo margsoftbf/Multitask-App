@@ -33,7 +33,7 @@ function Calculator() {
       <div className={`${style.wrapper}`}>
         <div className={`${style.box}`}>
           <input type="text" className={`${style.inputResult}`}
-            value={result} />
+            value={result} onChange={e => setResult(e.target.name)} />
           <div className={`${style.calculatorButtons}`}>
             <button onClick={clearInput} className={`${style.clearButton} ${style.functionButton}`}>
               C
@@ -82,6 +82,9 @@ function Calculator() {
             </button>
             <button className={`${style.calculatorButton} ${style.calculatorZero}`} onClick={handleClick} name="0">
               0
+            </button>
+            <button className={`${style.calculatorButton} ${style.functionButton}`} onClick={handleClick} name=".">
+              .
             </button>
             <button className={`${style.calculatorButton} ${style.functionButton}`} name="=" onClick={calcTheResult}>
               =

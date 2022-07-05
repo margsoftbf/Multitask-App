@@ -134,8 +134,6 @@ function BMI() {
                 <div className={`${style.topSection}`}>
                     <h1 className={`${style.title}`}>{(page === 0 ? 'BMI Calculator' : 'Result')}</h1>
                 </div>
-
-
                 <div className="body">{PageDisplay()}</div>
                 <div>{checkPage()}</div>
 
